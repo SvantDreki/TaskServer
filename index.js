@@ -14,6 +14,7 @@ app.use(cors({
         source: 'https://awesome-shaw-5dc6a7.netlify.app/'
     }
 }));
+app.options('*', cors());
 
 //Habilitar express.json
 app.use(express.json({ extended: true }));
