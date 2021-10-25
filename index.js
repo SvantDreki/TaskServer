@@ -11,7 +11,7 @@ conectarDB();
 //Habilitar cors
 app.use(cors({
     origin: {
-        source: 'https://brave-mcnulty-1ca141.netlify.app/'
+        source: 'https://jovial-curran-1c212e.netlify.app/'
     }
 }));
 app.options('*', cors());
